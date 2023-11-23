@@ -1,11 +1,11 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
-import { SYSTEM_EVENTS } from '../../../../shared/enums/system';
-import { BarbershopEvents } from '../../shared/events';
-import { BarbershopData } from '../../shared/interfaces';
-import { BARBER_SHOP_LOCATIONS } from '../../shared/locations';
-import { BARBER_SHOP_LOCALE } from '../../shared/locales';
-import { hairOverlayInfo } from '../../shared/overlays';
+import * as Athena from '@AthenaServer/api/index.js';
+import { SYSTEM_EVENTS } from '../../../../shared/enums/system.js';
+import { BarbershopEvents } from '../../shared/events.js';
+import { BarbershopData } from '../../shared/interfaces.js';
+import { BARBER_SHOP_LOCATIONS } from '../../shared/locations.js';
+import { BARBER_SHOP_LOCALE } from '../../shared/locales.js';
+import { hairOverlayInfo } from '../../shared/overlays.js';
 
 /**
  * Offer to cut hair for other players.

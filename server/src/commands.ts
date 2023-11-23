@@ -1,9 +1,9 @@
 import * as alt from 'alt-server';
-import * as Athena from '@AthenaServer/api';
-import { LOCALE_KEYS } from '../../../../shared/locale/languages/keys';
-import { LocaleController } from '../../../../shared/locale/locale';
-import { BARBER_SHOP_LOCALE } from '../../shared/locales';
-import { BarbershopView } from './view';
+import * as Athena from '@AthenaServer/api/index.js';
+import { LOCALE_KEYS } from '../../../../shared/locale/languages/keys.js';
+import { LocaleController } from '../../../../shared/locale/locale.js';
+import { BARBER_SHOP_LOCALE } from '../../shared/locales.js';
+import { BarbershopView } from './view.js';
 
 export class BarbershopCommands {
     static init() {
