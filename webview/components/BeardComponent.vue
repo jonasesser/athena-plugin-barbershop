@@ -32,7 +32,7 @@
 <script lang="ts">
 import { defineComponent, defineAsyncComponent } from 'vue';
 import { facialHairNames } from '../../../../shared/information/facialHair';
-import { BARBER_SHOP_LOCALE } from '../../shared/locales';
+import { BARBER_SHOP_LOCALE } from '../../shared/locales.js';
 
 const ComponentName = 'BeardComponent';
 export default defineComponent({

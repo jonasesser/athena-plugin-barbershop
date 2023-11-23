@@ -32,7 +32,7 @@
 <script lang="ts">
 import { defineComponent, defineAsyncComponent } from 'vue';
 import { makeup } from '../../../../shared/information/makeup';
-import { BARBER_SHOP_LOCALE } from '../../shared/locales';
+import { BARBER_SHOP_LOCALE } from '../../shared/locales.js';
 
 const ComponentName = 'MakeupComponent';
 export default defineComponent({

@@ -1,9 +1,9 @@
 import * as alt from 'alt-client';
 import * as native from 'natives';
-import * as AthenaClient from '@AthenaClient/api';
-import ViewModel from '../../../../client/models/viewModel';
-import { BarbershopEvents } from '../../shared/events';
-import { BarbershopData } from '../../shared/interfaces';
+import * as AthenaClient from '@AthenaClient/api/index.js';
+import ViewModel from '../../../../client/models/viewModel.js';
+import { BarbershopEvents } from '../../shared/events.js';
+import { BarbershopData } from '../../shared/interfaces.js';
 
 const Z_POS_ADD = 0.62;
 const FOV = 16;
